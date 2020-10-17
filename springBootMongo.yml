@@ -23,7 +23,7 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: dockerhandson/spring-boot-mongo
+      - image: rpuran/practice:20.4
         name: springboot
         ports:
         - containerPort: 8080  
